@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- <div class="container padding-wrap  title">
+        <img src="CC-UIE-logo.png" class="cc-logo" style="max-height:30px;" alt="">
+        <h1>Deliver Better Design</h1>
+    </div> -->
+
+
+    <div class="container" style="margin-top: 50px;">
+        <div class="event">
+            <div class="event-main">
+                <div class="icon">
+
+                </div>
+                <div class="event-description">
+
+
+
+                    <div class="describe">
+                        <h3 id="title"></h3>
+                        <h4 id ="date" class="event-date"></h4>
+
+
+                        <div>Add to calendar:
+                            <span class="calendar-link-list"> <a class="calendar-link"
+                                    href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Communication%20Skills%20of%20Influential%20UX%20LeaderEvent%20Name&dates=20221003T180000Z/20221003T190000Z&details=https://us02web.zoom.us/j/88292728501?pwd=Y0tBR25GbFF4MUxhWnd5MFI5S3hNUT09&location=Event%20Location&trp=true"
+                                    target="_blank" rel="noopener noreferrer">📅 Google</a>,
+                                <a class="calendar-link" href="http://" target="_blank" rel="noopener noreferrer">📅
+                                    iCal</a>,
+
+                                <a class="calendar-link" href="http://" target="_blank" rel="noopener noreferrer">📅
+                                    Outlook</a></span>
+                        </div>
+
+                        <div class="description-inner"
+                            style="max-height:30px ; overflow:hidden; display: flex; margin-bottom: 10px;">
+                            <div class="inner-text" style="max-width:400px ;">
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                <p>At blanditiis, fugiat cumque totam harum nisi optio saepe earum enim qui labore
+                                    quidem dolorem temporibus minus aspernatur libero tempore, reiciendis voluptatibus
+                                    ab? Rem facilis eos magnam animi, earum commodi laboriosam mollitia, nihil nisi at
+                                    sunt ipsa quasi iure, ad quae soluta.</p>
+                            </div>
+                            <div class="read-more" onClick="readMore(this)"
+                                style="display: inline-flex; flex-shrink: 0; padding-left:10px; font-size:15px; color:rgb(83, 88, 85);">
+                                <p>(Read more)</p>
+                            </div>
+                        </div>
+
+                        <div class="event-extended hide-morethan-500">
+                            <div class="event-type">
+                                Free Event
+                            </div>
+                            <div id="countdown-mobile" class="event-countdown">
+                            
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="link">
+                        <h5><a href="http://">Join leaders of Awesomeness community to watch this session for free</a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="event-extended hide-lessthan-500">
+                <div class="event-type">
+                    Free Event
+                </div>
+                <div id="countdown" class="event-countdown">
+            
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script>
+        function readMore(elem) {
+            if (elem.parentNode.style.maxHeight == "none") {
+                elem.innerHTML = "<p>(Read more)</p>"
+                elem.parentNode.style.maxHeight = "30px"
+            } else {
+                elem.innerHTML = "<p>(Read less)</p>"
+                elem.parentNode.style.maxHeight = "none";
+            }
+        }
+    </script>
+
+    <script src="calendar.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
